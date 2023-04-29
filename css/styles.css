@@ -65,6 +65,7 @@ button:focus {
 
 .menu-link {
   font-weight: 500;
+  color: var(--hero-color);
 }
 
 .contact-info {
@@ -136,6 +137,10 @@ button:focus {
 
 .filter-button {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   color: var(--logo-brand-color);
   background-color: var(--light-mode-background-color);
 }
