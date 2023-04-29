@@ -140,12 +140,12 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
   color: var(--logo-brand-color);
   background-color: var(--light-mode-background-color);
 }
 
 .filter-button:hover,
 .filter-button:focus {
+  cursor: pointer;
   color: var(--page-background-color);
 }
