@@ -21,6 +21,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  background-color: var(--page-background-color);
 }
 
 button {
@@ -37,11 +38,10 @@ button:focus {
 }
 
 .logo {
-  text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-brand-color);
@@ -56,11 +56,6 @@ button:focus {
 
 .link {
   text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--hero-color);
 }
 
 .link:hover,
@@ -68,8 +63,15 @@ button:focus {
   color: var(--pressed-state-color);
 }
 
-.mail,
-.tel {
+.menu-link {
+  font-weight: 500;
+}
+
+.contact-info {
+  font-style: normal;
+}
+
+.contact-info-item {
   font-style: normal;
   font-weight: 400;
   color: var(--body-text-color);
@@ -83,6 +85,7 @@ button:focus {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--page-background-color);
 }
 .order-button {
@@ -91,6 +94,7 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
   color: var(--page-background-color);
 }
 
@@ -99,6 +103,8 @@ button:focus {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: var(--hero-color);
 }
 
